@@ -1,0 +1,36 @@
+//noprotec
+
+var jugar_de_nuevo = true
+
+while(jugar_de_nuevo= true){
+//se pide un numero alazar
+var numero_alazar = Math.floor(Math.random() * 9) + 1;
+var numero_ingresado = parseInt(prompt("Ingrese numero entre 3 y 6"));
+
+//se valida el numero que ingreso
+while(parseInt(numero_ingresado,10<3 && parseInt(numero_ingresado,10>6){
+  console.log("ingrese un numero valido entre 3 y 6")
+      
+// se pide que divine el resultado
+ var adivinar = prompt("que adivine si el número que él ingresó es mayor,menor o igual al número que la computadora generó.")
+
+ // validamos la adivinanza 
+ while(adivinar !== "mayor" && adivinar !=="menor" && adivinar !=="igual"){
+   adivinar = prompt("por favor ingrese si es : mayor, menor o igual");
+ }
+ if(adivinar==="mayor" && numero_alazar && numero_ingresado){
+   console.log("La computadora eligio" + numero_alazar + "usted eligio" + numero_ingresado + "Su eleccion es mayor ¡Ha adivinado")
+ }
+ else if(adivinar=== "menor" && numero_alazar && numero_ingresado){
+   console.log("la computadora eligio" + numero_alazar + "usted eligio" + numero_ingresado + "su eleccion es menor ¡Ha adivinado!")
+ }
+ else if(adivinar=== "igual" && numero_alazar && numero_ingresado){
+   console.log("la computadora eligio" + numero_alazar + "usted eligio" + numero ingresado + "su eleccion es igual ¡Ha adivinado!")
+ }
+ else{
+   console.log("la computadora eligio" + numero_alazar + "usted eligio" + numero_ingresado + "su eleccion es incorrecta")
+ }
+
+ jugar_de_nuevo = prompt("jugar de nuevo: SI/NO")
+}
+ // profe ayudeme por favor que hice mal o que me falta
