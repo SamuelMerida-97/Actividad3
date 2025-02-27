@@ -1,0 +1,24 @@
+Algoritmo.
+Realizar cotización:
+
+"ingreso de datos para el asegurado"
+1 ingrese su nombre
+2 ingrese su edad 
+  a: de 18 a 24 recargo  de 10%
+  b: de 25 a 49 recargo  de 20%
+  c: de 50 o mas recargo de 30%
+3 esta casado? (el recargo del cónyuge dependerá de su edad)
+  a: si = recargo dependiendo de su edad
+  b: no
+     18 a 25 del 10%
+     25 a 49 del 20%
+     50 en adelante del 30%
+ 
+4 que edad tiene su esposo/a?
+5 tiene hijos?
+  a: si  recargo de 20% por C/U
+  b: no
+6 cuantos hijos tiene?(por cada hijo es el 20% de recargo a la base)
+7 se hacen los recargos conforme a sus datos 
+8 se le entrega el recargo y el recargo total  
+  
